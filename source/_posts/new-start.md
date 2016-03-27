@@ -28,12 +28,12 @@ HR给我领到一个会议室以后就来了一个面试官，手里面拿了一
 为什么猿题库面试改变了我的计划
 ```
 理论上猿题库不过就算了，面试面挂了这也很正常，还有很多公司可以投啊，为什么就不去实习了呢？首先来看一下三道面试题，第一道LRU，Leetcode 146道题：
-{% blockquote %}
+``` bash
 LRU Cache
 Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and set.
 get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
 set(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
-{% endblockquote %}
+```
 代码如下：
 ``` java
 public class LRUCache {

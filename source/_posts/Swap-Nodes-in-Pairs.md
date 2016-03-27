@@ -1,7 +1,7 @@
 
 ---
 title: Swap Nodes in Pairs
-date: 2016-03-23 19:34:29
+date: 2016-03-22 19:34:29
 categories: Leetcode
 tags:
  - Leetcode 
