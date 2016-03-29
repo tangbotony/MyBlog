@@ -6,6 +6,7 @@ tags:
 - Java
 - Leetcode
 - Algorithm
+- 位操作
 ---
 随着Leetcode刷题计划的推进，发现位操作越发的重要，很多时候甚至是离开了位操作运算，你压根就没法解决这个问题。熟练使用位操作会让你有事半功倍的效果，那下面我们就来看看位操作是如何事半功倍的。
 ## 为什么要学习位操作运算
@@ -293,3 +294,5 @@ public class Solution {
 [1]. http://blog.csdn.net/dc_726/article/details/7036533
 [2]. http://blog.csdn.net/zhaoweixing1989/article/details/8052261
 [3]. http://6url.cn/ckF
+
+{% fullimage  /images/20160323/c.jpg %}

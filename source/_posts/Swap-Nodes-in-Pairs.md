@@ -21,7 +21,7 @@ Your algorithm should use only constant space. You may not modify the values in 
 
 ```
 ### 解题思路
-1. 对于头结点单独交换
+1.对于头结点单独交换
 ``` java
 ListNode tempNode = head;
 head = head.next;
@@ -29,14 +29,14 @@ tempNode.next = head.next;
 head.next = tempNode;
 ```
 <!-- more -->
-2. 对于其它的节点采用如下的交换方式
+2.对于其它的节点采用如下的交换方式
 {% img /images/20160323/a.png %}
 ``` java
 beforNode.next = nextNode;
 tempNode.next = nextNode.next;
 nextNode.next = tempNode;
 ```
-3. 交换后，重新设定beforNode,tempNode的值
+3.交换后，重新设定beforNode,tempNode的值
 {% img /images/20160323/b.png %}
 ``` java
 beforNode = tempNode;
@@ -80,4 +80,5 @@ public class Solution {
     }
 }
 ```
-{% img  /images/20160323/d.jpg %}
+
+{% fullimage  /images/20160323/d.jpg %}
