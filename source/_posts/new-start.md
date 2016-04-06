@@ -116,6 +116,7 @@ public class LRUCache {
 打印n对括号的全部有效组合
 列如：当n=3时，可能的组合有：(()())， ((()))， ()(())， (())()， ()()()
 {% endblockquote %}
+LeetCode第22. Generate Parentheses道题目。
 代码如下：http://blog.csdn.net/jackfrued/article/details/17222069
 ``` java
 import java.util.ArrayList;
