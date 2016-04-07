@@ -11,7 +11,7 @@ date: 2016-03-28 00:03:52
 介绍：贵州研究生联谊会是基于蝉知系统搭建的网站，集电子商务、论坛、博客为一体的门户网站，主要曾担贵州研究生联谊会、中国贵州人才博览会的信息发布任务。
 个人职责：负责整个项目的搭建和所有后期维护。
 
-## 秘密岛APP
+## 秘密岛
 时间：2015年09月--2015年10月
 网址：http://www.mimidao.net
 介绍：秘密岛是一款专注于单身男女的社交交友应用。
@@ -39,7 +39,7 @@ date: 2016-03-28 00:03:52
 介绍：“饭小桶”是由东北大学软件学院饭小桶团队独立开发的一款订餐软件，旨在便利同学日常生活中遇到的吃饭问题。
 百度百科：[http://baike.baidu.com/item/饭小桶](http://baike.baidu.com/item/饭小桶)
 官方微博：[http://t.qq.com/neu_fanxiaotong](http://t.qq.com/neu_fanxiaotong/)
-个人职责：团队负责人和参与Android客户端的开发。
+个人职责：团队负责人和Android客户端的开发者。
 团队介绍：<iframe height=320 width=510 src="http://player.youku.com/embed/XNzMzMjgzMTcy" frameborder=0 allowfullscreen></iframe>
 软件介绍：<iframe height=320 width=510 src="http://player.youku.com/embed/XNzMzMjgyNjY0" frameborder=0 allowfullscreen></iframe>
 

@@ -6,7 +6,7 @@ tags:
 - MathJax
 categories: Markdown
 ---
-{% fullimage /images/20160329/e.jpg%}  
+{% img /images/20160329/e.jpg%}  
 Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它的诞生让很多笔者更加专注于写作，而不是排版问题。当然Markdown也不是非常完美的语言，它也有不擅长的东西，比如对数学公式的支持，可以说Markdown本身对数学公式是没有任何的支持能力，只能通过第三方插件来解决，其中最简单的解决方案就是MathJax了。MathJax是一款运行在浏览器中的开源的数学符号渲染引擎，使用MathJax可以方便的在浏览器中显示数学公式，不需要使用图片。目前，MathJax可以解析Latex、MathML和ASCIIMathML的标记语言。所以说安装好MathJax后，我们只需要用LaTex把公式写出来，网页就能够显示出公式了，下面我们就来看看如何安装MathJax。
 <!-- more -->
 ## 获取MathJax

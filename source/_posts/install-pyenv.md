@@ -8,7 +8,7 @@ tags:
 - Mac
 - OS X
 ---
-{% fullimage /images/20160329/i.jpg%}
+{% img /images/20160329/i.jpg%}
 ## 什么是pyenv
 引用一下官方文档的第一句话：
 >pyenv lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
