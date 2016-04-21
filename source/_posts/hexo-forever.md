@@ -10,6 +10,7 @@ tags:
 ## 背景
 安装上Hexo也有一段时间了，但是Hexo的服务总是两三天就莫名奇妙的会停止运行，这就导致我得不断去重启，非常的麻烦，但是由于最近事情有点多，就没弄。哎，说白了，就是懒...正好今天有点空（上公选课，懒得听），就查了一下原因，打开日志看了看是因为Hexo URLDecoder这个方法出异常，导致Hexo服务就退出了，网站就无法访问。
 解决方案：在这种情况下，就需要有一个进程来守护Hexo的服务进程，当Hexo的服务退出以后，守护进程那就再启动一下Hexo的服务进程，这样就能保证Hexo的服务永远在运行了，我以为Hexo 3.0 把服务器独立成了个别模块，它会解决这个问题，不幸的是我们还得自己解决。
+**也许你和我一样查了很多类似的解决方案，但是都不好使，但是我希望你认真看看这个方法，很多细节还是和网上的解决方案是不同的，至少这个方法在我的服务器上是好用的。**
 
 ## Forever是什么
 引用一下[官网](https://github.com/foreverjs/forever)的解释:
@@ -60,7 +61,8 @@ console.log('child process eixt ,exit:' + code);
 ```bash
 forever --minUptime 10000 --spinSleepTime 26000 start app.js
 ```
-至于--minUptime和--spinSleepTime这两个参数的解释大家可以看[参考的第二个链接](http://blog.pillakloud.com/blog/2015/06/23/node-js-%E4%B8%ADforever%E5%8F%83%E6%95%B8%E8%A7%A3%E9%87%8B-minuptime-spinsleeptime/)。查看一下是否启动成功，命令：
+至于--minUptime和--spinSleepTime这两个参数的解释大家可以看[参考的第二个链接](http://blog.pillakloud.com/blog/2015/06/23/node-js-%E4%B8%ADforever%E5%8F%83%E6%95%B8%E8%A7%A3%E9%87%8B-minuptime-spinsleeptime/)。
+查看服务是否启动成功，命令：
 ```bash
 forever list
 ```
